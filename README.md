@@ -119,4 +119,3 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 * [Supplemental Guide: Fetching Stock Data Using Google Sheets](../../../01-Lesson-Plans/04-Pandas/Supplemental/googlefinance_guide.md)
 
----
