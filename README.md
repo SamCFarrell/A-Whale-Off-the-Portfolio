@@ -23,15 +23,15 @@ For this homework assignment, you have three main tasks:
 
 ### Prepare the Data
 
-First, read and clean several CSV files for analysis. The CSV files include whale portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices. Use the [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb) to complete the following steps:
+First, read and clean several CSV files for analysis. The CSV files include whale portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices. Use the [Whale Analysis Starter Code](whale_analysis.ipynb) to complete the following steps:
 
 1. Use Pandas to read the following CSV files as a DataFrame. Be sure to convert the dates to a `DateTimeIndex`.
 
-    * `whale_returns.csv`: Contains returns of some famous "whale" investors' portfolios.
+    * [`whale_returns.csv`](Resources/whale_returns.csv): Contains returns of some famous "whale" investors' portfolios.
 
-    * `algo_returns.csv`: Contains returns from the in-house trading algorithms from Harold's company.
+    * [`algo_returns.csv`](Resources/algo_returns.csv): Contains returns from the in-house trading algorithms from Harold's company.
 
-    * `sp500_history.csv`: Contains historical closing prices of the S&P 500 Index.
+    * [`sp500_history.csv`](Resources/sp500_history.csv): Contains historical closing prices of the S&P 500 Index.
 
 2. Detect and remove null values.
 
@@ -109,7 +109,7 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 ## Resources
 
-**File:** [Whale Analysis Starter Code](Starter_Code/whale_analysis.ipynb)
+**File:** [Whale Analysis Starter Code](whale_analysis.ipynb)
 
 * [Pandas API Docs](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
 
@@ -117,5 +117,5 @@ Harold is ecstatic that you were able to help him prove that the algorithmic tra
 
 * [`GOOGLEFINANCE` function help](https://support.google.com/docs/answer/3093281)
 
-* [Supplemental Guide: Fetching Stock Data Using Google Sheets](../../../01-Lesson-Plans/04-Pandas/Supplemental/googlefinance_guide.md)
+* [Supplemental Guide: Fetching Stock Data Using Google Sheets](Supplemental/googlefinance_guide.md)
 
